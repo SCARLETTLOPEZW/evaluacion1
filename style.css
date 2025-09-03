@@ -1,0 +1,67 @@
+/* 🎨 Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/d9/35/df/d935df6d9fd6f9327b3dbb6e1ccc7565.jpg");
+    /* 📌 ruta de la imagen */
+    background-size: cover;
+    /* hace que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat;
+    /* evita que se repita */
+    background-position: center;
+    /* centra la imagen */
+}
+
+/* 📦 Caja del formulario */
+.form-container {
+    background: rgb(247, 212, 137);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+/* 📝 Título */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* 🟦 Inputs y select */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ❌ Mensajes de error */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/* 🔘 Botón */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #c98b0d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #dfc43f;
+}
